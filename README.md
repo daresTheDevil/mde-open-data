@@ -21,9 +21,11 @@ To access the actual file, go to/copy [this link](https://github.com/davidbkay/m
 
 You can link directly to this file for any mapping needs.
 
+https://cdn.jsdelivr.net/gh/davidbkay/mde-open-data@0.0.1/mississippi-districts.geojson
+
 ```python
 # Pandas
-df=pd.read_json('https://github.com/davidbkay/mississippi-education-geojson/blob/c0af6a8c41beca12808ad88367fb6b7bea322126/districts-mississippi.geojson')
+df=pd.read_json('https://cdn.jsdelivr.net/gh/davidbkay/mde-open-data@0.0.1/mississippi-districts.geojson')
 ```
 
 > way more to come
