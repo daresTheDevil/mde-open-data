@@ -15,17 +15,17 @@ Because we need district data for cool apps...and not everyone is a GIS analyst.
 
 ## Quickstart
 
-To access the actual file, go to/copy [this link](https://github.com/davidbkay/mississippi-education-geojson/blob/c0af6a8c41beca12808ad88367fb6b7bea322126/districts-mississippi.geojson).
+To access the actual file, go to/copy [this link](https://cdn.jsdelivr.net/gh/davidbkay/mde-open-data@0.0.2/mississippi-districts-1516.geojson).
 
 ## Accessing programatically
 
 You can link directly to this file for any mapping needs.
 
-https://cdn.jsdelivr.net/gh/davidbkay/mde-open-data@0.0.1/mississippi-districts.geojson
+https://cdn.jsdelivr.net/gh/davidbkay/mde-open-data@0.0.2/mississippi-districts-1516.geojson
 
 ```python
 # Pandas
-df=pd.read_json('https://cdn.jsdelivr.net/gh/davidbkay/mde-open-data@0.0.1/mississippi-districts.geojson')
+df=pd.read_json('https://cdn.jsdelivr.net/gh/davidbkay/mde-open-data@0.0.2/mississippi-districts-1516.geojson')
 ```
 
 > way more to come
